@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <title>Домашнее задание 2.2</title>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zbRwpJVIrAFsWILR1SgLO0ioRGzaMVqjjrYrmbbPbNcFnzG2Tdk2cBONT3gRIp4Ga0igXs4cbduM5M1ATGtt1_TSResXqVOMVHTm5WFQoIU" charset="UTF-8"></script></head>  
+</head>
+<body>
+  <h1 span="center">Домашнее задание 2.2</h1>
+  <p class="style1"> Список задач
+    <table class="table1">
+        <thead>
+          <tr>
+            <th scope="col">Номер <br>задания</th>
+            <th scope="col">Ссылка на <br>веб-страницу</th>
+            <th scope="col">Первичный HTML и CSS</th>
+            <th scope="col">Новый HTML и CSS</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+                <a href="Untitled-1.html">Задание 1</a>
+            </td>
+            <td>
+             <img class="container" src="1_OLD.png">   
+            </td>
+            <td>
+                <img class="container" src="1_NEW.png">   
+            </td>
+         </tr>
+         <tr>
+            <th scope="row">2</th>
+            <td>  <a href="Untitled-2.html">Задание 2</a> </td>
+            <td>
+<xmp>
+    "HTML"
+    <body>
+    <a href="task_main.html">Вернуться к списку заданий</a>
+    <p class="green">Это красный текст</p>
+    <p class="red" style="color:green">Это тоже красный текст</p>
+    <p class="italic">Это полужирный текст</p>
+    <p class="bold">Это <i>тоже полужирный</i> текст</p>
+    <p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+    <ul>
+        <li color="green">Элемент списка</li>
+            <ol>
+                <li color="red">Первый элемент подсписка</li>
+                <li style="color:red">Второй элемент подсписка</li>
+            </ol>
+        <li style="color:green">Ещё один элемент списка</li>
+    </ul>
+    <p><span class="xxsmall">В</span> 
+        <span font-size="xsmall">этом</span>
+        <b class="medium">абзаце</b> 
+        <span class="xlarge">все</span> 
+        <span large>слова</span>
+        <span font="size=small">разного</span> 
+        <span size="xxlarge">размера</span></p>
+    </body>
+</xmp>
+            </td>
+            <td>
+ <xmp>
+    "HTML"
+    <body>
+        <a href="page2.html">Вернуться на домашюю страницу</a>
+        <p class="red">Это красный текст</p>
+        <p class="red">Это тоже красный текст</p>
+        <b>
+        <p class="italic"><b>Это полужирный текст</p>
+        <p class="bold">Это <i>тоже полужирный</i> текст</p>
+        </b>
+        <p>Все элементы следующего списка (включая подсписок) имеют разные цвета и ни один из них не чёрный:</p>
+        <ul>
+            <li class="green">Элемент списка</li>
+                <ol>
+                    <li class="blue">Первый элемент подсписка</li>
+                    <li class="greenyellow">Второй элемент подсписка</li>
+                </ol>
+            <li class="red">Ещё один элемент списка</li>
+        </ul>
+        <p><span class="xxsmall">В</span> 
+            <span class="xsmall">этом</span>
+            <b class="medium">абзаце</b> 
+            <span class="xlarge">все</span> 
+            <span class="large">слова</span>
+            <span class="small">разного</span> 
+            <span class="xxlarge">размера</span></p>
+    </body>
+
+    В CSS  добавлены  новые атрибуты
+
+    li.blue {
+        color: blue;
+    }
+    li.greenyellow {
+        color: greenyellow;
+    }
+</xmp>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+            <a href="Untitled-3.html">Задание 3</a>
+            </td>
+            <td>
+<xmp>
+    "HTML"
+    <body>
+        <a href="task_main.html">Вернуться к списку заданий</a>
+        <p class="red" style="color:blue">Это красный текст</p>
+        <p class="green" style="color:red">Это зелёный текст</p>
+        <p class="italic">Этот текст написан курсивом</p>
+        <p class="bold">Это <i>полужирный</i> текст</p>
+        <ul>
+            <li class="green" style="color:red">Этот элемент списка зелёный</li>
+            <ol>
+                <li class="red" style="color:blue">Этот элемент подсписка красный</li>
+                <li class="blue">Этот элемент подсписка синий</li>
+            </ol>
+        </ul>
+    </body>
+
+    "CSS"
+
+    Первичные значения изменяемых атрибутов 
+    ul ol li.blue {
+        color: magenta;
+    }
+    p.italic {
+        font-weight: italic;
+    }
+    p.bold {
+        font-style: bold;
+    }
+</xmp>
+            </td>
+            <td>
+    <xmp>
+    "HTML"
+    <body>
+        <a href="page2.html">Вернуться на домашюю страницу</a>
+        <p class="blue">Это красный текст</p>
+        <p class="red">Это зелёный текст</p>
+        <p class="italic">Этот текст написан курсивом</p>
+        <p class="bold">Это <i>полужирный</i> текст</p>
+        <ul>
+            <li class="blue">Этот элемент списка зелёный</li>
+            <ol>
+                <li class="red">Этот элемент подсписка красный</li>
+                <li class="blue">Этот элемент подсписка синий</li>
+            </ol>
+        </ul>
+        </body>
+        
+        " CSS"
+        
+        Итоговые  значения изменяемых атрибутов 
+        ul ol li.blue {
+            color: blue;
+        }
+        p.italic {
+            font-style: italic;
+        }
+        p.bold {
+            font-weight: bold;
+        }
+    </xmp>   
+            </td>
+           </tr>
+        </tbody>
+      </table>
+    </p>
+</body>
+</html>
